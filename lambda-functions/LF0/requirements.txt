@@ -1,0 +1,5 @@
+# Lambda Function LF0 - Chatbot Chat Operation
+# No external dependencies required - uses Python standard library only
+# uuid - standard library for generating unique message IDs
+# json - standard library for JSON serialization/deserialization
+# datetime - standard library for timestamp generation
