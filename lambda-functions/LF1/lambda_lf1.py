@@ -27,7 +27,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 sqs = boto3.client("sqs")
-QUEUE_URL = os.environ.get("QUEUE_URL", "")
+QUEUE_URL = "https://sqs.us-east-1.amazonaws.com/257656107916/DiningRequests"
 
 NY_TZ = ZoneInfo("America/New_York")
 
